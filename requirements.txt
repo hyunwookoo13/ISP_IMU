@@ -1,0 +1,11 @@
+# Compatible with the Python 3.9 supplied by this Mac's command line tools.
+bleak==1.1.1
+# Last PyObjC release with Python 3.9 wheels. Pin to avoid incompatible 12.x.
+pyobjc-core==11.1; sys_platform == "darwin"
+pyobjc-framework-Cocoa==11.1; sys_platform == "darwin"
+pyobjc-framework-CoreBluetooth==11.1; sys_platform == "darwin"
+pyobjc-framework-libdispatch==11.1; sys_platform == "darwin"
+PySide6==6.7.3
+pyqtgraph==0.13.7
+qasync==0.27.1
+numpy==2.0.2
